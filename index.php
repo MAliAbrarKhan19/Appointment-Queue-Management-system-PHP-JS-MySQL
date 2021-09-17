@@ -1,3 +1,4 @@
+<?php include 'functions.php'; ?>
 <!-- Header  -->
 <?php include 'header.php'; ?>
 <!-- Header  -->
@@ -20,7 +21,12 @@
 </div>
 
 
-
+<div class="row">
+  <div class="col-md-6 offset-md-3  p-2 lead text-success text-center">
+    <a class="btn btn-success btn-lg btn-block m-3" href="#" role="button" data-toggle="modal" data-target="#ModalVisitor">Visitor Login</a>
+    <a class="btn btn-success btn-lg btn-block m-3" href="#" role="button"  data-toggle="modal" data-target="#ModalVisitorLogout">Visitor Logout</a>
+  </div>
+</div>
 
 
 

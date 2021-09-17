@@ -1,3 +1,15 @@
+<?php session_start();
+include 'dbconfig.php';
+  date_default_timezone_set("ASIA/DHAKA");
+  $date = date("D, d-m-Y ");
+  $time = date("h:i:s A");
+
+  //echo $date." // ".$time;
+
+ ?>
+
+
+<!-- PHP Code Starts -->
 <!doctype html>
 <html lang="en">
   <head>
