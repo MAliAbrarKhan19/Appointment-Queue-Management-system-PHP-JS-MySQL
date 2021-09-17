@@ -13,9 +13,9 @@
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-icons.css">
     <!-- Bootstrap CSS -->
-    <link rel="icons" type="text/css" href="">
+    <link rel="icon" type="text/css" href="./bootstrap-icons/eye.svg">
 
-    <title>Appointment-Queue-Management-System</title>
+    <title>AppQue Appointment-Queue-Management-System</title>
   </head>
   <body class="container-fluid bg-primary">
 
@@ -28,9 +28,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             
-            <a class="navbar-brand text-succes" href="./index.php"><h4 class="text-success">AppQue _</h4><small class="text-muted">Appointment Queue Management System </small></a>
+            <a class="navbar-brand text-success" href="./index.php"><h4 class="text-success"><img class="bg-success" width="20%" height="20%"  src="./bootstrap-icons/eye.svg"> AppQue _</h4><small class="text-muted">Appointment Queue Management System </small></a>
 
-            <div class="align-left collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="collapse navbar-collapse float-left" id="navbarTogglerDemo03">
               <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
                 <li class="nav-item active">
                   <a class="nav-link text-success" href="./index.php">| <i class="bi bi-house-fill"></i> |</a>
@@ -55,4 +55,5 @@
     <!-- ===================== Nav bar ====================== -->
 <!-- master row starts -->
 <div class="row">
+	<div class="col-md-12">
 <!-- master row starts -->
