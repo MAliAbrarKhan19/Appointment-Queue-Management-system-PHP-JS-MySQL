@@ -1,19 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link rel="icon" type="text/css" href="./bootstrap-icons/eye.svg">
+
+    <title>AppQue Appointment-Queue-Management-System</title>
+</head>
+
+<body class="container-fluid">
+
+
+<!-- master row starts -->
+<div class="row">
+	<div class="col-md-12">
+<!-- master row starts -->
+
+
+	<div class="row mt-5 ">
+		<div class="offset-md-2 col-md-8">
+			<div class="row">
+				<div class="col-md-2">
+					<img class="bg-success" width="90%" height="90%"  src="./bootstrap-icons/eye.svg">
+				</div>
+				<div class="col-md-6">
+					<h4 class="text-success"> AppQue _</h4>
+					<small class="text-muted">Appointment Queue Management System </small>
+					<hr>
+					<h3> Your Token </h3>
+				</div>
+
+			</div>
+			<table class="table table-bordered">
+			  <thead>
+			    <tr>
+			      <th >Token no.:  034834729 </th>
+			      <th >Date: 19-02-2021 </th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th>Name :</th>
+			      <td colspan="2"> James Bond </td>
+			    </tr>
+			    <tr>
+			      <th>Email :</th>
+			      <td colspan="2"> Jamesbond@gmail.com </td>
+			    </tr>
+			    <tr>
+			      <th>Mobile :</th>
+			      <td colspan="2"> James bond </td>
+			    </tr>
+			    <tr>
+			      <th>Schedule Date & Time :</th>
+			      <td colspan="1"> 21-02-2021 11:00am</td>
+			    </tr>
+			  </tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8">
+			
+		</div>
+	</div>
 
 <!-- master row ends  -->
   </div>
 </div>
 <!-- master row ends  -->
 
-    <!--Footer -->
-       
-    <div class="row bg-dark fixed-bottom"  style="margin-top: 0px;">
-      <div class="col-md-8 offset-md-2 p-2 "><!-- fixed-bottom -->
-        <hr class=" bg-success">
-        <p  class="text-success text-center">
-       &copy; <?php echo date("Y"); ?> Copyright by Appointment Queue Management System   <a class="text-success text-center" href="https://github.com/ananyasaha2468/ONLINE-LOG-BOOK-LOG-MANAGER"> ID-112</a>
-        </p>
-      </div>
-    </div>
+ 
 
     <!-- Optional JavaScript; choose one of the two! -->
 

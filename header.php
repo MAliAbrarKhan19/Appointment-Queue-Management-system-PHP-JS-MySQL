@@ -7,7 +7,7 @@ include 'dbconfig.php';
   //echo $date." // ".$time;
 
  ?>
-
+<?php include 'functions.php'; ?>
 
 <!-- PHP Code Starts -->
 <!doctype html>
