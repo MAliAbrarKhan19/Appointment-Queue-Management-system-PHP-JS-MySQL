@@ -30,7 +30,7 @@
 		<div class="offset-md-2 col-md-8">
 			<div class="row">
 				<div class="col-md-2">
-					<img class="bg-success" width="90%" height="90%"  src="./bootstrap-icons/eye.svg">
+					<img class="border rounded bg-success" width="100px" height="100px"  src="./bootstrap-icons/eye.svg">
 				</div>
 				<div class="col-md-6">
 					<h4 class="text-success"> AppQue _</h4>
@@ -64,17 +64,24 @@
 			      <th>Schedule Date & Time :</th>
 			      <td colspan="1"> 21-02-2021 11:00am</td>
 			    </tr>
+			    <tr>
+			    	<td colspan="2" class="text-center">
+			    		<i class="text-success">
+			    			N.B.: Please bring this token with you for visit.
+			    		</i>
+			    	</td>
+			    </tr>
 			  </tbody>
 			</table>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col-md-8">
-			
+		<div class="offset-md-8 col-md-3">
+			<input class="btn btn-outline-success" type="button"  name="print" value="Print" onclick="window.print()">
 		</div>
 	</div>
-
+<!-- <script type="text/javascript">function ()= {window.location.print(); }</script> -->
 <!-- master row ends  -->
   </div>
 </div>

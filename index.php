@@ -2,7 +2,6 @@
 <!-- Header  -->
 <?php include 'header.php'; ?>
 <!-- Header  -->
-<?php include 'functions.php'; ?>
 
 
 
